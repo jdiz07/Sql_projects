@@ -17,6 +17,18 @@ The first SQL project in this repository is Personal Expense tracker and Budgets
 - SQL queries for analysis and reporting
 - Joins, aggregations, and filtering
 
+### 1. SQL Project 2
+
+The Second SQL project in this repository is Flight Dashboard using Streamlit.
+
+**Topics covered:**
+
+- DataSet cleaning
+- Database and table creation
+- Data insertion and updates
+- SQL queries for analysis and reporting
+- Joins, aggregations, and filtering
+
 ## Repository structure
 
 ```text
