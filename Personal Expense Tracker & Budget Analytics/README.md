@@ -5,9 +5,20 @@ anywhere with zero setup.
 
 ## Run it
 
-```bash
-pip install -r requirements.txt
+On Windows, use a fresh virtual environment to avoid native DLL issues:
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
 streamlit run app.py
+```
+
+If you prefer, run the bundled helper script:
+
+```powershell
+.\install.ps1
 ```
 
 On first run it creates `expense_tracker.db` in the same folder, seeds it
